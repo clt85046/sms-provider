@@ -15,6 +15,7 @@ func init() {
 
 func Start() {
 	addr := config.Config().Http.Listen
+	log.Println("addr is ",addr)
 	if addr == "" {
 		return
 	}

@@ -1,0 +1,4 @@
+2018/04/11 14:18:07 config.go:68: load configuration file cfg.json successfully
+2018/04/11 14:18:07 http.go:18: addr is  0.0.0.0:4000
+2018/04/11 14:18:07 http.go:26: http listening 0.0.0.0:4000
+send sms fail, tos:%s, cotent:%s, error:%v 18625187201 test Post http://10.211.248.103/send/api/ShortMessage: dial tcp 10.211.248.103:80: i/o timeout

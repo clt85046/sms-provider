@@ -30,10 +30,10 @@ func configProcRoutes() {
     	resp, err := s.String()
     	if err != nil {
     		http.Error(w, err.Error(), http.StatusInternalServerError)
-        	fmt.Println("send sms fail, tos:%s, cotent:%s, error:%v", Tos, Content, err)
+        	fmt.Println("send sms fail, tos:%s, cotent:%s, error:%v", tos, content, err)
     	}else {
 			http.Error(w, "success", http.StatusOK)
-			fmt.Println("send sms:%v, resp:%v, url:%s", Content, resp, url)
+			fmt.Println("send sms:%v, resp:%v, url:%s", content, resp, url)
 		}
 
 	})

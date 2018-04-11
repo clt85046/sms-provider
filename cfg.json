@@ -1,10 +1,10 @@
 {
     "debug": true,
     "http": {
-        "listen": "10086",
+        "listen": "0.0.0.0:10086",
         "token": ""
     },
-    "smtp": {
+    "sms": {
         "addr": "http://10.211.248.103/send/api/ShortMessage",
         "apiname": "OpenFalconMsg",
         "token": "D4AFC7CF5C202D0F2C03E60FEDBEFE16",
