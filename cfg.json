@@ -1,7 +1,7 @@
 {
     "debug": true,
     "http": {
-        "listen": "10086",
+        "listen": "0.0.0.0:10086",
         "token": ""
     },
     "smtp": {
