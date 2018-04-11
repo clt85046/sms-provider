@@ -24,7 +24,7 @@ type SmsConfig struct {
 type GlobalConfig struct {
 	Debug bool        `json:"debug"`
 	Http  *HttpConfig `json:"http"`
-	SMS  *SmsConfig `json:"sms"`
+	Sms  *SmsConfig `json:"sms"`
 }
 
 var (
