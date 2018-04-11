@@ -5,9 +5,9 @@
         "token": ""
     },
     "sms": {
-        "addr": "http://10.211.248.103/send/api/ShortMessage",
-        "apiname": "OpenFalconMsg",
-        "token": "D4AFC7CF5C202D0F2C03E60FEDBEFE16",
+        "addr": "addr",
+        "apiname": "ApiName",
+        "token": "Token",
         "from": "falcon@example.com"
     }
 }
